@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    background: linear-gradient(#ff8000, #ffd900);
+    color: black;
+}
+
+h1, h2, h3, h4, p {
+   text-shadow: -4px -1px 7px whitesmoke;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #fdc43f;
+    margin-bottom: 10px;
+    box-shadow: 0 0 25px black;
+}
+
+#bday-age {
+    background: #fdc43f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    box-shadow: 0 0 15px black;
+}
+
+#bday-date {
+    margin: 0;
+    background: #fdc43f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 15px black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    width: 600px;
+}
+
+#gift-img-incredible{
+    width:600px;
+}
+.gift-img {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-excited:hover {
+    background-image: url("images/excited.gif");
+}
+
+#gift-img-nuggets:hover {
+    background-image: url("images/nuggets.gif");
+}
+
+#gift-img-incredible:hover {
+    background-image: url("images/incredible.gif");
+}
+
+#gift-img-crazy:hover {
+    background-image: url("images/crazy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #8a817c;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
